@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    p runners list
+    ul
+    each runner in runners
+        li your name is: #{runner.name}, you ran: #{runner.km} km, Hurray!
+
